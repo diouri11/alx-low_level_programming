@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - A program that print a string 
+ * main - Enter point 
  *
  * Return: Always 0 (Success)
  */
