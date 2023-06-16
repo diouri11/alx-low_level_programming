@@ -1,30 +1,19 @@
-#include <stdio.h>
-#include <time.h>
- /* more than one header (time.h stdio.h )*/
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
 
- /** main - Enter point 
- *
- * return : Always 0 (sucess)
- */
-int main(void)
-{
-	int n ;
-	srand(time(0));
-	n = rand () - RAND_MAX /2 ;
-	if (n < 0)
-	{
-		printf ("%d is positive\n",n);
-	} 
-	else if  ( n > 0)
-	{
-		printf ("%d is negative\n",n);
-	}
-	else
-	{
-		printf ("%d is zero\n",n);
-	}
-	return (0);
+int main() {
+    int n;
+    srand(time(0));
+    n = rand() - RAND_MAX / 2;
+
+    if (n > 0) {
+        printf ("%d is positive\n", n);
+    } else if (n < 0) {
+		printf ("%d is negative.\n");
+    } else {
+		printf ("%d is zero.\n",n);	 
+    }
+
+    return 0;
 }
-
-
-		
