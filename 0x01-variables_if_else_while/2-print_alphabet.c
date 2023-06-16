@@ -1,19 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - Enty point program ...
- *  
- * 
- * Return: always 0 (sucess) 
-*/
+ * main - Entry point
+ *
+ *
+ * Return: Always 0 (Sucess)
+ */
 
 int main(void)
 {
-    char i ;
-    for (size_t i ='a'; i < 'z'; i++)
-    {
-        putchar(i);
-    }
-    putchar('\n'); 
-    return (0);
+	char c;
+
+	for (c = 'a' ; c <= 'z' ; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
+	return (0);
 }
