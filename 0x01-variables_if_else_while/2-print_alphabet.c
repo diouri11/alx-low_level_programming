@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * main -Enty point program ...
+ * main - Enty point program ...
  *  
  * 
- * return o sucessful
- * 
+ * Return: always 0 (sucess) 
 */
 
 int main(void)
@@ -16,5 +15,5 @@ int main(void)
         putchar(i);
     }
     putchar('\n'); 
-    return 0;
+    return (0);
 }
