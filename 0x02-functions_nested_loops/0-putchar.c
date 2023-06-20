@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * file's name:  0-putchar 
  * main : prints "_putchar" follwed by new line
  * 
- * Return : 0 (Always success)
+ * Return: 0 (Always success)
  * 
 */
 int main(void)
@@ -17,5 +17,5 @@ int main(void)
     _putchar('a');
     _putchar('r');
     _putchar('\n');
-    return 0;
+    return (0) ;
 }
