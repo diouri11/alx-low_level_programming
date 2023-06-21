@@ -3,7 +3,6 @@
 * Return: 0
 */
 
-/* this is nice */
 int main(void)
 {
 int i;
