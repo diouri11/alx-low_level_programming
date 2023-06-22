@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
+ *
  * main - check if the char is upper or lower case
- * 
- * Returnn: Always 0.  
+ *
+ * Returnn: Always 0.
 */
 
 int _isupper(int c)
@@ -13,11 +14,11 @@ int _isupper(int c)
 
 	if (c >= 65 && c <= 95)
 	{
-		i= 1 ;
+		i = 1;
 	}
 	else
 	{
-	i= 0 ;
+	i = 0;
 	}
 return (i);
 }
