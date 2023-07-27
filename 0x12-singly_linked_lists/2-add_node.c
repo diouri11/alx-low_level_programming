@@ -1,6 +1,5 @@
 #include "lists.h"
 /**
- * @author: Adam Diouri 11
  * add_node - adds a new node at the beginning
  * of a list_t list.
  * @head: head of the linked list.
